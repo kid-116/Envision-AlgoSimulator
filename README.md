@@ -15,4 +15,4 @@
 ## Learning HTML
 - Go through [lessons](https://learn.shayhowe.com/html-css/) `1`, `2`, `8` & `11` (`12` is optional) `skipping any CSS` that comes up.
 - The `assignment` is to create a simple personal website using `HTML`.
-- It should be submitted to the subdirectory `learning\<github-handle>\`.
+- It should be submitted to the subdirectory `learning\personal_website\<github-handle>\`.
