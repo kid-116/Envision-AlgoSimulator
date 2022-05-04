@@ -13,6 +13,9 @@
 - `Remember to fetch` changes from the upstream repo before working on something.
 
 ## Learning HTML
-- Go through [lessons](https://learn.shayhowe.com/html-css/) `1`, `2`, `8` & `11` (`12` is optional) `skipping any CSS` that comes up.
+- Go through the [lessons](https://learn.shayhowe.com/html-css/) `1`, `2`, `8` & `11` (`12` is optional) `skipping any CSS` that comes up.
 - The `assignment` is to create a simple personal website using `HTML`.
 - It should be submitted to the subdirectory `learning\<github-handle>\`.
+
+## Learning JS
+- Go through the [YouTube playlist](https://youtu.be/HerCR8bw_GE).
