@@ -43,9 +43,13 @@
 - `Remember to fetch` changes from the upstream repo before working on something.
 
 ## Learning HTML
-- Go through [lessons](https://learn.shayhowe.com/html-css/) `1`, `2`, `8` & `11` (`12` is optional) `skipping any CSS` that comes up.
+- Go through the [lessons](https://learn.shayhowe.com/html-css/) `1`, `2`, `8` & `11` (`12` is optional) `skipping any CSS` that comes up.
 - The `assignment` is to create a simple personal website using `HTML`.
 - It should be submitted to the subdirectory `learning\personal_website\<github-handle>\`.
+
 ## Learing CSS
 - Go through the following [link](https://www.codecademy.com/learn/learn-css).
 - The `assignment` is to style the page from the previous assignment.
+
+## Learning JS
+- Go through the `Coding Train's` [YouTube playlist](https://youtu.be/HerCR8bw_GE) on `p5.JS`
