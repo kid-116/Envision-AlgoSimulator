@@ -53,3 +53,7 @@
 
 ## Learning JS
 - Go through the `Coding Train's` [YouTube playlist](https://youtu.be/HerCR8bw_GE) on `p5.JS`
+
+## Implementing an Algorithm
+- Implement an algorithm of your choosing using `JS`.
+- Submit it to the subdirectory `learning\algorithms\<github-handle>-<algorithm>\` e.g. `learning\algorithms\kid-116-dfs\`.
