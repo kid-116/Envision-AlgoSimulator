@@ -24,10 +24,10 @@ function drawBars(a = Number.MAX_VALUE, b = Number.MAX_VALUE) {
         textAlign(CENTER)
         barHeight = (arr[i] / maxi) * (windowHeight - 145);
         if (x[i] < 10 + i * barWidth) {
-            x[i] = min(x[i] + (1 + slider.value() * 3 / 100), 10 + i * barWidth)
+            x[i] = min(x[i] + 3, 10 + i * barWidth)
         }
         else if (x[i] > 10 + i * barWidth) {
-            x[i] = max(x[i] - (1 + slider.value() * 3 / 100), 10 + i * barWidth)
+            x[i] = max(x[i] - 3, 10 + i * barWidth)
         }
         notInPlace = notInPlace || (x[i] !== 10 + i * barWidth)
         text(arr[i], x[i] + barWidth / 2, windowHeight - 125 - barHeight)
@@ -109,8 +109,8 @@ function draw() {
                 sort = "#"
                 noLoop()
             }
+            sleep(1000 - slider.value() * 5 / 2)
             drawBars(sj, sj + 1)
-            sleep(350 - slider.value() * 5 / 2)
             if(arr[sj] > arr[sj + 1]) {
                 swap(sj, sj + 1)
             }
@@ -136,7 +136,7 @@ function draw() {
             }
             if(sj < arr.length) {
                 drawBars(st, sj)
-                sleep(350 - slider.value() * 5 / 2)
+                sleep(1000 - slider.value() * 5 / 2)
                 if(arr[sj] < arr[st]) {
                     st = sj
                 }
