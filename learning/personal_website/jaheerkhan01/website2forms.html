@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bree+Serif&family=Diplomata+SC&family=Merriweather+Sans&family=Tapestry&display=swap" rel="stylesheet"> 
+     <style>
+     *{
+         margin: 0;
+         padding: 0;
+     }
+      body{
+          background-image: url('1.jpg');
+           background-size:  cover;
+          border: 2px solid  red;
+          background-attachment: fixed;
+        margin: 3px;
+        padding: 3px;
+        font-family: 'Bangers', cursive;
+         font-family: 'Bree Serif', serif;
+         font-family: 'Diplomata SC', cursive;
+         font-family: 'Merriweather Sans', sans-serif;
+         font-family: 'Tapestry', cursive;
+      }
+      .logos{
+          background-color: black;
+      }
+      .props{
+          text-align: right;
+          background-color: black;
+      }
+      div,label,h2{
+          color: white;
+      }
+      .end,.ll{
+          background-color: black;
+      }
+      
+     .heading{
+         color: darkkhaki;
+         text-align: center;
+     }
+    .subs,.start{
+        text-align: center;
+        font-family: 'Tapestry', cursive;
+    }
+     footer{
+         text-align: center;
+        background-color:  black;
+        color: white;
+     }
+     </style> 
+</head>
+<body>
+    
+   
+    <h3  class="logos">
+        <img src="logo.png"  >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;     
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+         
+            <a href="#">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">VIDEOS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">PORTFOLIO</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">CONTACT US</a>
+         
+    </h3>
+    <br /><br /><br /><br /><br />
+     <h1 class="heading" > 
+     
+        JAHEER KHAN WEB PAGE
+     
+     </h1><br>
+    <h2>ENQUARY ABOUT A PERSON</h2><br><br>
+    <form action="backend.php">
+    <label for="name">FIRST NAME:</label>
+    <div>
+        <input type="text" name="myName" id="name">
+    </div>
+    <br>
+    <label for="name1">SURNAME:</label>
+    <div>
+        <input type="text" name="myName1" id="name1">
+    </div>
+    <br>
+    <label for="name2">MOTHER'S NAME</label>
+    <div>
+        <input type="text" name="myName1" id="name2">
+    </div>
+    <br>
+    <label for="name3"> FATHER'S NAME:</label>
+    <div>
+        <input type="text" name="myName1" id="name3">
+    </div>
+    <br>
+    <label for="age">AGE:</label>
+    <div> 
+        <input type="number" name="myAge" id="age">
+    </div>
+    <br>
+    <label for="dob">DATE OF BIRTH:</label>
+    <div>
+        <input type="date" name="mydob" id="dob">
+    </div>
+    <br>
+    <label for="gender">GENDER:</label>
+    <div>
+        MALE<input type="radio" name="myGender" id="gender"> FEMALE<input type="radio" name="myGender" id="gender">
+        OTHER<input type="radio" name="myGender" id="gender">
+    </div>
+    <br>
+    <div> 
+    <label for="class">CLASS:</label>
+    <select name="MYClass" id="class">
+        <option value="12th">12TH</option>
+        <option value="11th">11TH</option>
+        <option value="10th">10TH</option>
+        <option value="9th">9TH</option>
+    </select>
+</div>
+<br>
+<div>
+    <label for="school">SCHOOL NAME:</label>
+     <input type="text" name="mySchool" id="school">
+</div>
+<br>
+<div>
+    <label for="income">FAMILY INCOME:</label>
+    <input type="number" name="myIncome" id="income">
+</div>
+<br>
+<div>
+    <label for="address">ADDRESS:</label>
+ <br>  
+ <div></div>
+ <label for="vilaage">VILLAGE:</label>
+   <input type="text" name="myvillage" id="adress">
+</div>
+  <br>  
+   <div> 
+       <label for="tehsil">TEHSIL:</label>
+  <input type="text" name="myTehsil" id="tehsil">
+</div>
+  <br>
+    <div> 
+        <label for="district">DISTRICT:</label>
+       <input type="text" name="myDistrict" id="district">
+</div>
+   <br>
+   <div> 
+       <label for="state">STATE:</label>
+    <input type="text" name="myState" id="state">
+</div>
+  <br>   
+  <div> 
+      <label for="pincode">PINCODE:</label>
+   <input type="number" name="myName" id="pincode">
+</div>
+<br>
+    <label for="way">TELL ABOUT YOU AND YOUR FAMILY BACKGROUND:</label>
+    <div> 
+        <textarea name="myText" cols="100" rows="10" id="way"></textarea>
+    </div>
+    <br>
+    <label for="aue">IS ALL THE INFORMATION IS CORRECT(than click on right tick on check box):&nbsp;</label>
+    <div> 
+           <input type="checkbox" name="myEligibility" id="aue" > 
+    </div>
+    <br>
+    <div> 
+     <input type="submit" value="SUBMIT NOW">
+     <input type="reset" value="RESET NOW">
+    </div>
+</forms>
+<br><br>
+<h3  class="props">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+     <a href="#" target="_blank" class="subs" >
+        SUBSCRIBE US
+     </a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="#" target="_blank" class="start" >
+         GET STARTED
+     </a>
+ 
+</h3>
+    
+<h3  class="end"> 
+    <a href="https://google.com" target="_blank">GO TO GOOGLE</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://instagram.com" target="_blank">GO TO  INSTAGRAM</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://facebook.com" target="_blank">GO TO  FACEBOOK</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://linkedin.com" target="_blank">GO TO  LINKDEN</a> &nbsp;&nbsp;&nbsp;&nbsp;
+</h3>
+<div  class="ll" >
+    this form is created for only basic information about you.<br>
+    <a href="https://www.termsfeed.com" target="_blank">Terms and condition</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.termify.io/" target="_blank">privacy policy</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://en.wikipedia.org" target="_blank">Desktop</a>
+</div>
+<footer>
+    Copyrigths &copy; all rigths reserved
+</footer>
+</body>
+</html>
