@@ -1,0 +1,318 @@
+
+/*default style change*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+.page
+{
+    background:  url(../aa/webla.jpg), linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.55), black);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-blend-mode: multiply;
+}
+.logo
+{
+    color: #b8c9ce;
+}
+.log
+{
+    padding: 15px 0;
+    height: 30px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 4.5rem;
+    background: rgba(0,0,0,0.7);
+}
+nav .logo
+{
+    position: absolute;
+    font-weight: 800;
+    font-size: 2.8rem;
+    font-family: "Poppins", sans-serif;
+}
+nav .logo:hover
+{
+    font-weight: 800;
+    font-size: 2.8rem;
+    font-family: "Poppins", sans-serif;
+}
+.ok
+{
+    color: #b8c9ce;
+
+    padding: 9px;
+}
+.ok:hover
+{
+    
+    background-color: rgba(57, 57, 57, 0.789);
+    border-radius: 20%;
+}
+.navlink
+{
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 45%;
+    height: 40%;
+    padding: 38px 0;
+}
+a
+{
+    text-decoration: none;
+}
+.intro
+{
+    background: url(PRAVEEN.webp), rgba(0,0,0,0.4);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+}
+.back
+{
+    position: absolute;
+    max-width: 60%;
+    padding-left: 9%;
+    padding-right: 35%;
+    padding-top: 16%;
+}
+.rand
+{
+    text-align: center;
+}
+
+.pkimg
+{
+    position: absolute;
+    margin-left: 65%;
+    max-height: 86vh;
+    object-fit: cover;
+}
+
+
+/*footer*/
+footer
+{
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 4.5rem;
+}
+.footc
+{
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.foot
+{
+    display: flex;
+}
+li img
+{
+    margin-top: 0;
+    height: 40px;
+    width: 40px;
+    padding: 9px;
+}
+li img:hover
+{
+    background-color: rgb(109, 111, 111);
+    border-radius: 20%;
+}
+ul
+{
+    padding-left: 25%;
+    padding-right: 25%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+/*edu fav section*/
+.edu
+{
+    background: url(../aa/nitk.jpg),  linear-gradient(to right, rgba(0,0,0,0), black);
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 100vh;
+}
+.edu .rand
+{
+    position: absolute;
+    margin-left: 60%;
+    padding-top: 20%;
+}
+.fav
+{
+    background: url(fav.jpg), linear-gradient(to left, rgba(0,0,0,0), black) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.fav .rand
+{
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 7%;
+    padding-right: 50%;
+}
+.para.hh:hover
+{
+    text-decoration-color: #de9114;
+}
+
+
+/*table style*/
+table, th,td
+{
+    width: 100%;
+    border: 7px  solid black;
+    border-collapse: collapse;
+}
+.tablep
+{
+    height: 40px;
+}
+.tablep img
+{
+    border-radius: 12%;
+    object-fit: cover;
+    height:430px;
+}
+
+.tableh
+{
+    max-width: 35%;
+    overflow-x: hidden;
+    text-align: center;
+}
+.alink
+{
+    color: #de9114;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.alink:hover
+{
+    text-decoration: underline;
+}
+table
+{
+    text-align: center;
+    font-weight:bolder;
+    font-size: x-large;
+    color:#48c63f;
+    text-transform: initial;
+}
+caption
+{
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(255, 63, 63);
+}
+th
+{
+    
+    color: #10b5e2;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.tab {
+    background: url(../aa/randomb.jpg), rgba(0,0,0,0.7);
+    max-height: 100vh;
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: multiply;
+	color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.tablep h1
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: xx-large;
+    color: rgb(255, 63, 63);
+}
+body
+{
+    color : rgb(222, 52, 52);
+}
+
+
+
+/*about page style*/
+.aboutpkimg
+{
+    position: absolute;
+    height: 86vh;
+    padding-left: 70%;
+}
+.me
+{
+    position: absolute;
+    padding-left: 4px;
+    max-width: 70%;
+}
+.me .subheading
+{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+}
+.pageabout
+{
+    background: url(../aa/randomb.jpg), rgba(0,0,0,0.78);
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: multiply;
+	color: #b8c9ce;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.me .hh
+{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/*body general style*/
+body {
+	font-family: 'Amatic SC', cursive;
+	background-color: black;
+	color: #b8c9ce;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.rand .subheading .hh
+{
+    color: #b8c9ce;
+    font-size: 50px;
+    font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.rand .subheading 
+{
+    color: #b8c9ce;
+    font-size: 25px;
+    font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+h2
+{
+    text-align: center;
+    font-size: 2rem;
+}
+.hh
+{
+    font-size: xx-large;
+}

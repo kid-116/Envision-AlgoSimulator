@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*tag style*/
+h1
+{
+    
+}
+
+
+/*navigation*/
+nav
+{
+    background: rgba(0, 0, 0, 0.6);
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.7rem 0 0 0;
+    width: 45%;
+}
+nav a
+{
+    text-decoration: none;
+    color: #10b5e2;
+    font-family: 'Luckiest Guy', cursive;
+}
+.logo
+{
+    position: relative;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    font-family: 'Luckiest Guy', cursive;
+    color: #de9114;
+}
+/*header*/
+header
+{
+    background: url(../aa/webla.jpg), linear-gradient(to left, rgba(0,0,0,0),black);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+/*body*/
+body
+{
+    background: black;
+}
+.pkimg
+{
+    padding-left: 65%;
+    position: absolute;
+    height: 86vh;
+}
+/*body*/
