@@ -28,7 +28,8 @@ year: 2022
 - Ankur Chaudhary
 
 ## Acknowledgements
-<!-- If you have a guide, acknowledge it here -->
+
+To the success of the project, the mentors were a huge help. From resource provision to keeping everyone going in the project, every part of the experience was a really well put and professional. Being the first software project of most of us, this was a lot of fun to put together.
 
 ## Aim
 
