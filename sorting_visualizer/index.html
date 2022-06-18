@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+        }
+
+        #bs {
+            font-size: 50px;
+            display: flex;
+        }
+
+        header {
+            padding-top: 16px;
+            height: 70px;
+            background-color: black;
+            color: green;
+            display: flex;
+        }
+
+        body {
+            background-color: rgb(31, 31, 31);
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        .gs {
+            border: 2px solid green;
+            margin: 12px 12px 12px 35px;
+            font-size: 20px;
+            color: green;
+            background-color: black;
+            border-color: green;
+            font-weight: 700;
+        }
+
+        .gs:hover {
+            color: black;
+            background-color: green;
+        }
+
+        .hs:hover {
+            color: black;
+            background-color: green;
+        }
+
+        .hs {
+            border: 2px solid green;
+            margin: 12px;
+            font-size: 20px;
+            color: green;
+            background-color: black;
+            font-weight: 700;
+            border-color: green;
+        }
+
+        footer {
+            height: 35vh;
+            padding-top: 88vh;
+            padding-bottom: 0;
+            text-align: center;
+            background-color: black;
+            color: green;
+        }
+
+        body {
+            background-color: rgb(31, 31, 31);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div id="bs">
+                Sorting Visualizer
+                <button onclick="gen()" class="gs">Generate Array</button>
+                <button onclick="bubbleSort()" class="hs">Bubble Sort</button>
+                <button onclick="selectionSort()" class="hs">Selection Sort</button>
+                <button onclick="insertionSort()" class="hs">Insertion Sort</button>
+            </div>
+        </div>
+    </header>
+    
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+    
+    <footer>
+        creators are: <br>
+        YUVRAJ WALE <br>
+        PRAVEEN KUMAR <br>
+        JAHEER KHAN <br>
+        KHUSHI SURESH MUDDI <br>
+        SAKET ZINGADE <br>
+        GARVIT GOYAL <br>
+        ANKUR CHAUDHARY<br>
+        Copyright &copy; all rights reserved
+    </footer>
+</body>
+
+</html>
