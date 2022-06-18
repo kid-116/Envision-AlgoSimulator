@@ -90,7 +90,7 @@ This visualiser creates a visual array of boxes, each of a different length to d
 
 To create a platform for this visualizer to run on, HTML was a necessity which, along with CSS makes for the foundation of the simulator.
 
-![image_3](/Project%20guide/web_hc.jpg)
+![image_3](web_hc.jpg)
 
 ### JavaScript
 
