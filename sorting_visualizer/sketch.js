@@ -61,6 +61,10 @@ function setup() {
 }
 
 function gen() {
+    si = 0
+    sj = 0
+    st = 0
+    sort = "#"
     arr.length = 0
     x.length = lenArray
     for (let i = 0; i < lenArray; i++) {
