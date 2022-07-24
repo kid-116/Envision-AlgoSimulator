@@ -10,6 +10,7 @@ let swapping = false
 
 function drawBars(a = Number.MAX_VALUE, b = Number.MAX_VALUE) {
     background(31, 31, 31)
+    fill(250)
     rect(0, windowHeight - platformHeight - 100, windowWidth, platformHeight)
     strokeWeight(1)
     let notInPlace = false
@@ -24,10 +25,10 @@ function drawBars(a = Number.MAX_VALUE, b = Number.MAX_VALUE) {
         textAlign(CENTER)
         barHeight = (arr[i] / maxi) * (windowHeight - 145);
         if (x[i] < 10 + i * barWidth) {
-            x[i] = min(x[i] + 3, 10 + i * barWidth)
+            x[i] = min(x[i] + slider.value()/60, 10 + i * barWidth)
         }
         else if (x[i] > 10 + i * barWidth) {
-            x[i] = max(x[i] - 3, 10 + i * barWidth)
+            x[i] = max(x[i] - slider.value()/60, 10 + i * barWidth)
         }
         notInPlace = notInPlace || (x[i] !== 10 + i * barWidth)
         text(arr[i], x[i] + barWidth / 2, windowHeight - 125 - barHeight)
@@ -55,12 +56,16 @@ function setup() {
     let cnv = createCanvas(windowWidth, windowHeight - 100)
     cnv.position(0, 100)
     gen()
-    slider = createSlider(-33, 100, 25)
+    slider = createSlider(0, 100, 72)
     slider.position(40, 80)
     noLoop()
 }
 
 function gen() {
+    si = 0
+    sj = 0
+    st = 0
+    sort = "#"
     arr.length = 0
     x.length = lenArray
     for (let i = 0; i < lenArray; i++) {
@@ -117,7 +122,7 @@ function draw() {
                 sort = "#"
                 noLoop()
             }
-            sleep(1000 - slider.value() * 5 / 2)
+            sleep(1000 - slider.value() * 7.5)
             drawBars(sj, sj + 1)
             if(arr[sj] > arr[sj + 1]) {
                 swap(sj, sj + 1)
@@ -144,7 +149,7 @@ function draw() {
             }
             if(sj < arr.length) {
                 drawBars(st, sj)
-                sleep(1000 - slider.value() * 5 / 2)
+                sleep(1000 - slider.value() * 7.5)
                 if(arr[sj] < arr[st]) {
                     st = sj
                 }
@@ -173,7 +178,7 @@ function draw() {
             }
             if(sj >=0) {
                 drawBars(sj, sj + 1)
-                sleep(1000 - slider.value() * 10)
+                sleep(1000 - slider.value() * 7.5)
                 if(arr[sj] > arr[sj + 1]) {
                     swap(sj, sj + 1)
                 }
