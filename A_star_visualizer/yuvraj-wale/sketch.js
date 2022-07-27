@@ -52,8 +52,6 @@ function draw() {
   }
 }
 
-
-
 function doStep() {
   if (currentCell === targetCell || openSet.length === 0) {
       toggleRun(false);
